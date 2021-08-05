@@ -1,0 +1,96 @@
+html {
+  font-family: "Hack";
+  margin: 0;
+}
+
+:root {
+  --color-black: #1d2021;
+  --color-gray: #282828;
+
+  --color-red: #cc241d;
+  --color-lightred: #fb4934;
+
+  --color-green: #98971a;
+  --color-lightgreen: #b8bb26;
+
+  --color-yellow: #d79921;
+  --color-lightyellow: #fabd2f;
+
+  --color-blue: #458588;
+  --color-lightblue: #83a598;
+
+  --color-mangeta: #b16286;
+  --color-lightmagenta: #d3869b;
+
+  --color-cyan: #689d6a;
+  --color-lightcyan: #8ec07c;
+
+  --color-white: #928374;
+  --color-lightwhite: #ebdbb2;
+
+  --color-orange: #d65d0e;
+  --color-lightorange: #fe8019;
+}
+
+body {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+pre,
+code {
+  background-color: var(--color-gray);
+  font-size: 1.5vw;
+  color: var(--color-red);
+  text-align: center;
+}
+
+ul,
+li {
+  background-color: var(--color-gray);
+  text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 4vw;
+}
+nav {
+  text-align: center;
+  font-size: 2vw;
+}
+
+a {
+  font-family: "monospace";
+  color: var(--color-cyan);
+  text-decoration: none;
+}
+
+h1 {
+  color: var(--color-red);
+  text-align: left;
+  padding-left: 4;
+}
+h2 {
+  color: var(--color-green);
+  text-align: left;
+  padding-left: 4;
+}
+h3 {
+  color: var(--color-yellow);
+  text-align: left;
+  padding-left: 4;
+}
+h4 {
+  color: var(--color-blue);
+  text-align: left;
+  padding-left: 4;
+}
+h5 {
+  color: var(--color-purple);
+  text-align: left;
+  padding-left: 4;
+}
+h6 {
+  color: var(--color-cyan);
+  text-align: left;
+  padding-left: 4;
+}
