@@ -35,62 +35,70 @@ html {
 body {
   background-color: var(--color-black);
   color: var(--color-white);
+  font-size: 1.5vw;
 }
 
 pre,
 code {
-  background-color: var(--color-gray);
-  font-size: 1.5vw;
+  font-size: 0.9vw;
   color: var(--color-red);
   text-align: center;
 }
 
-ul,
-li {
+#nav {
+  font-family: "monospace";
+  font-size: 1em;
   background-color: var(--color-gray);
+  text-align: center;
+  font-weight: bold;
+  margin: -1vw 10em;
+}
+#nav ul li {
   text-align: center;
   list-style-type: none;
   display: inline-block;
-  margin: 0 4vw;
+  margin: 0 3.5vw;
 }
-nav {
-  text-align: center;
-  font-size: 2vw;
+ul li {
+  text-decoration: none;
+  list-style-type: square;
 }
-
 a {
   font-family: "monospace";
   color: var(--color-cyan);
   text-decoration: none;
 }
-
+b {
+  color: var(--color-green);
+}
 h1 {
   color: var(--color-red);
   text-align: left;
-  padding-left: 4;
+  padding-left: 2vw;
+  text-decoration: underline;
 }
 h2 {
   color: var(--color-green);
-  text-align: left;
-  padding-left: 4;
 }
 h3 {
   color: var(--color-yellow);
-  text-align: left;
-  padding-left: 4;
 }
 h4 {
   color: var(--color-blue);
-  text-align: left;
-  padding-left: 4;
 }
 h5 {
   color: var(--color-purple);
-  text-align: left;
-  padding-left: 4;
 }
 h6 {
   color: var(--color-cyan);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding-left: 2vw;
+  text-decoration: underline;
   text-align: left;
-  padding-left: 4;
 }
