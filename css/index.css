@@ -34,29 +34,30 @@ html {
 body {
   background-color: var(--color-black);
   color: var(--color-white);
-  font-size: 1.5em;
+  font-size: 1.7rem;
 }
 
 pre,
 code {
-  font-size: 0.9em;
+  font-size: 1rem;
   color: var(--color-red);
   text-align: center;
 }
 
 #nav {
   font-family: hack, monospace;
-  font-size: 1em;
+  font-size: 1.2rem;
   background-color: var(--color-gray);
   text-align: center;
   font-weight: bold;
-  margin: -1em 10em;
+  margin: -1rem 10em;
+  display: flex;
 }
 #nav ul li {
   text-align: center;
   list-style-type: none;
   display: inline-block;
-  margin: 0 3.5em;
+  margin: 0.4rem 0.3em;
 }
 a {
   font-family: "monospace";
@@ -91,7 +92,13 @@ h3,
 h4,
 h5,
 h6 {
-  padding-left: 2em;
+  padding-left: 2rem;
   text-decoration: underline;
   text-align: left;
+}
+/* @media max-width == <= and min-width ==  >= */
+@media (max-width: 300px) {
+  html {
+    font-size: 18px;
+  }
 }
