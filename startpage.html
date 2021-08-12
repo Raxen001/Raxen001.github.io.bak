@@ -11,14 +11,15 @@
         display: flex;
         height: 100%;
         margin: 0;
-        font: 18px "Hack";
+        font: 19px "Hack";
         color: #928374;
         background-color: #1d2021;
+        object-fit: cover;
       }
 
       body {
         display: flex;
-        margin: 2em;
+        margin:  2em;
         padding: 2em;
       }
 
@@ -34,7 +35,7 @@
           color: #cc241d;
           grid-column: 1 / -1;
           margin: 0;
-          text-align: center;
+          text-align: center ;
       }
 
       a {
@@ -44,7 +45,7 @@
 
       a:focus,
       a:hover {
-        color: #1d81b2;
+        border: 2px;
       }
 
       nav {
@@ -55,8 +56,9 @@
         margin: 0 1em;
         min-width: 24em;
         padding: 1em 0;
+
       }
-      @media (max-width: 800px) {
+      @media (max-width: 860px) {
           nav { 
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -65,16 +67,27 @@
 
       ul {
         list-style-type: none;
-        margin: 0;
+        margin: 0.2em;
         padding: 1em;
         white-space: nowrap;
+        text-align: left;
+        background-color: #282828;
+      }
+      ul:hover {
+          background-color: #3c3836;
+          color: #a89984;
       }
 
       li:first-child {
         font-weight: bold;
-        text-decoration:underline;
         line-height: 2em;
-        color: #458588;
+        background-color: #458588;
+        color: #282828;
+        text-align: center;
+      }
+      li:hover {
+        background-color: #8ec07c;
+        color: #1d2021;
       }
 
       img {
@@ -106,15 +119,16 @@
     ░           ░  ░ ░    ░     ░  ░         ░ 
 </pre>
       <ul>
-        <li>Entertainment</li>
+        <li>ENTERTAINMENT</li>
         <li><a href="https://reddit.com">Reddit</a></li>
         <li><a href="https://youtube.com">Youtube</a></li>
         <li><a href="https://wikipedia.org">Wikipedia</a></li>
         <li><a href="https://monkeytype.com/">monkeytype</a></li>
+        <li><a href="https://discord.com/channels/@me">Discord</a></li>
       </ul>
 
       <ul>
-          <li>Tech</li>
+          <li>TECH</li>
         <li><a href="https://wiki.archlinux.org">ArchWiki</a></li>
         <li><a href="https://aur.archlinux.org">AUR</a></li>
         <li><a href="https://suckless.org">Suckless</a></li>
@@ -128,6 +142,7 @@
         <li><a href="https://www.mangasaki.com/manga/one-punch-man">One Punch Man</a></li>
         <li><a href="https://www.mangasaki.com/manga/boku-no-hero-academia">My hero academia</a></li>
         <li><a href="https://www.webtoons.com/en/action/the-god-of-high-school/list?title_no=66">God of highschool</a></li>
+        <li><a href="https://bato.to/series/72477">Out</a></li>
       </ul>
 
       <ul>
@@ -138,7 +153,7 @@
       </ul>
 
       <ul>
-        <li>ComicsStrips</a></li>
+        <li>COMICSSTRIPS</a></li>
         <li><a href="https://xkcd.com/">Xkcd</a></li>
         <li><a href="https://qwantz.com/">Dino</a></li>
         <li><a href="https://abstrusegoose.com/">Goose</a></li>
@@ -146,7 +161,7 @@
         <li><a href="https://turnoff.us/">Turnoff</a></li>
       </ul>
       <ul>
-        <li>Working</a></li>
+        <li>WORKING</a></li>
         <li><a href="https://raxengamer001.github.io/">RaxenGithub</a></li>
         <li><a href="file:///home/raxen/Code/HTML-CSS/raxengamer001.github.io/index.html">LocalRaxenGithub</a></li>
       </ul>
