@@ -1,5 +1,4 @@
 .gallery {
-    margin: 3vw;
     padding: 2vw;
     display: flex;
     flex-wrap: wrap;
@@ -11,7 +10,7 @@ img {
     object-fit: contain;
     border-style: solid;
     border-color: #83A598;
-    max-width: 21rem;
+    width: 21rem;
     height: 30rem;
 }
 .container {
