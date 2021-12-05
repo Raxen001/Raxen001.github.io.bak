@@ -1,12 +1,13 @@
 .gallery {
     padding: 2vw;
+    margin-left: 3vw;
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
-    grid-gap: 8px;
+    grid-gap: 1.4vw;
 }
 
-img {
+.gallery img {
     object-fit: contain;
     border-style: solid;
     border-color: #83A598;
@@ -38,4 +39,14 @@ img:hover {
 
 .container:hover .text {
   opacity: 1;
+}
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+.text {
+    opacity: 1;
+}
+
 }
